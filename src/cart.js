@@ -158,7 +158,7 @@ let increment = (id) => {
             .reduce ((x,y) => x + y, 0);
             //console.log(amount);
             return (label.innerHTML = `
-            <h2> Total Bill : $ ${amount}</h2>
+            <h2> Total Amount : $ ${amount}</h2>
             <button class="checkout">Checkout</button>
             <button onclick="clearCart()" class="removeAll">Clear Cart</button>
             `);
