@@ -1,6 +1,6 @@
 
 let ShoppingCart = document.getElementById("shopping-cart");
-let label = documents.getElementById("label");
+let label = document.getElementById("label");
 
 // basket to hold all selected items
 // the getItem is retieving data from the local storage
@@ -31,7 +31,7 @@ let generateCartItems = () => {
         return (ShoppingCart.innerHTML = basket
             .map((x) => {
                 let { id, item } = x;
-                let seach = shopItemsData.find((x) => x.id === id || []);
+                let search = shopItemsData.find((x) => x.id === id || []);
                 let { img, price, name} = search;
                 return`
               
@@ -88,7 +88,7 @@ generateCartItems();
 
 let increment = (id) => {
     let selecetedItem = id;
-    let seach = basket.find((x) => x.id === selectedItem.id);
+    let search = basket.find((x) => x.id === selectedItem.id);
 
     if (search === undefined) {
         basket.push({
@@ -158,7 +158,7 @@ let increment = (id) => {
             .reduce ((x,y) => x + y, 0);
             //console.log(amount);
             return (label.innerHTML = `
-            <h2> Total Amount : $ ${amount}</h2>
+            <h2> Total Bill : $ ${amount}</h2>
             <button class="checkout">Checkout</button>
             <button onclick="clearCart()" class="removeAll">Clear Cart</button>
             `);
