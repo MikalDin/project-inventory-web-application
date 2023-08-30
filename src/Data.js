@@ -45,7 +45,7 @@ let shopItemsData = [
 },
 {
     id: "8jgnfAS",
-    name: "Trucker Hat",
+    name: "Hipster Hat (multiple colors)",
     price:46,
     desc: "White and blue hipster hat, custom fonts available ",
     img:"images/img-5.jpg",
@@ -65,11 +65,11 @@ let shopItemsData = [
    
      },
      {
-        id: "8PgdfgGj",
-        name: "Blue Hipster Hat",
-        price:46,
+        id: "LgdfgGj",
+        name: "Air JOrdan (retro throwback)",
+        price: 150,
         desc: "Blue Hipster Hat with text on front",
-        img:"images/img-1.jpg",
+        img:"images/img-7.jpg",
     
        
        
@@ -77,10 +77,10 @@ let shopItemsData = [
     },
     {
         id: "B1A7bmc1",
-        name: "Jacket (Windbreaker)",
-        price:165,
-        desc: "Day glo Orange Windbreaker jacket",
-        img:"images/img-2.jpg",
+        name: "Aero FutuRA Kicks",
+        price:245,
+        desc: "Future-retro sneaker customizable.",
+        img:"images/img-8.jpg",
        
     
         
