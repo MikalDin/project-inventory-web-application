@@ -49,7 +49,7 @@ let generateShop = () => {
              <h3>${name} </h3>
              <p>${desc}</p>
              <div class="price-quantity">
-                 <h2>${price}</h2>
+                 <h2>$${price}</h2>
                  <div class="buttons">
                      <i onClick="decrement(${id})" class="bi bi-dash-lg"></i>
                          <div id=${id} class="quantity">${
@@ -89,7 +89,7 @@ let increment = (id) => {
     }  
          
     console.log(basket);
-    update(selectedItem.id);
+   update(selectedItem.id);
     localStorage.setItem("data", JSON.stringify(basket));
 };    
 /**

@@ -11,7 +11,7 @@ let shopItemsData = [
 
 },
 {
-    id: "SSASbmc",
+    id: "SSASbmc2",
     name: "Jacket (Windbreaker)",
     price:165,
     desc: "Day glo Orange Windbreaker jacket",
@@ -65,7 +65,7 @@ let shopItemsData = [
    
      },
      {
-        id: "Ahgdfgj",
+        id: "8PgdfgGj",
         name: "Blue Hipster Hat",
         price:46,
         desc: "Blue Hipster Hat with text on front",
@@ -76,7 +76,7 @@ let shopItemsData = [
     
     },
     {
-        id: "SSASbmc",
+        id: "B1A7bmc1",
         name: "Jacket (Windbreaker)",
         price:165,
         desc: "Day glo Orange Windbreaker jacket",
@@ -87,7 +87,7 @@ let shopItemsData = [
     
     },
     {
-        id: "EyT891",
+        id: "EyT891E",
         name: "Thierry-Eye-glassesant",
         price: 350,
         desc: "Designer eyewear imported from Italy",
@@ -98,7 +98,7 @@ let shopItemsData = [
     
     },
     {
-        id: "EY7I2b",
+        id: "EY7I2bX",
         name: "Akila-Kaya-Eye-Glasses",
         price: 275,
         desc: "Designer eyewear imported from Belgium",
@@ -109,7 +109,7 @@ let shopItemsData = [
     
     },
     {
-        id: "StJJ7O",
+        id: "StJJ7O3",
         name: "Modicon Toy(dog)",
         price: 450,
         desc: "collectibe teddy figurine from international curatorial and design teams",
@@ -120,10 +120,9 @@ let shopItemsData = [
     
     },
     {
-        id: "Tp91159",
+        id: "Tp92159",
         name: "Modicon Toy(retro)",
         price:500,
-        
         desc: "collectibe teddy figurine from international curatorial and design teams",
         img:"images/img-12.jpg",
     
