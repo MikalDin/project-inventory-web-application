@@ -83,7 +83,7 @@ If the form is submitted, error messages appear saying exactly what is wrong. In
 
 ![The form shows partial errors.](./assets/form-submit-partial-errors.png)
 
-If only some of the problems from the form are fixed, errors still occur. As you can see, however, there are fewer error messages.
+If only some of the problem
 
 ![A new resource is created.](./assets/create-new-resource.png)
 
