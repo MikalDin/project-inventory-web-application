@@ -1,6 +1,24 @@
 /**
 * ! changing default styles of the browser
+for screens smaller than 1000px
 **/
+
+@media (max-width:1000px) {
+    .shop {
+        grid-template-columns: repeat(2, 223);
+    }
+}
+
+/**
+* ! changing default styles of the browser
+for screens smaller than 500px
+**/
+
+@media (max-width:500px) {
+    .shop {
+        grid-template-columns:repeat(1, 223px);
+    }
+}
 *{ 
     margin: 0;
     padding: 0;
