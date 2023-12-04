@@ -1,5 +1,11 @@
 let ShoppingCart = document.getElementById("shopping-cart");
 let label = document.getElementById("label");
+let resetCart = () => {
+  basket = [];
+  generateCartItems();
+  calculation();
+  localStorage.removeItem("data");
+};
 
 /**
  * ! Basket to hold all the selected items
